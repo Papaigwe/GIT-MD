@@ -22,7 +22,7 @@ zokou({ nomCom: "menu", categorie: "Général" }, async (dest, zk, commandeOptio
     const date = moment.tz("asia/karachi").format("DD/MM/YYYY");
     console.log("date" + date);
     console.log("temps " + temps);
-    let menuMsg = "  ╩═══ * Ƶ𝓞ｋØ𝓊 * ╩═══\n\n";
+    let menuMsg = "  ╩═══ * G-I-T * ╩═══\n\n";
     /*menuMsg+=`
     
     
@@ -61,14 +61,14 @@ zokou({ nomCom: "menu", categorie: "Général" }, async (dest, zk, commandeOptio
 ╚════--------------- \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
-            emoji[cat] = "💞";
+            emoji[cat] = "❤️‍🔥";
         }
         menuMsg += `${emoji[cat]} ══ *${cat} * ══ ${emoji[cat]}\n`;
         for (const cmd of coms[cat]) {
             menuMsg += "\t  ║ " + cmd + "" + " \n";
         }
     }
-    //  var link = "https://wallpapercave.com/uwp/uwp3860299.jpeg";
+    //  var link = "https://i.imgur.com/3RVpbdq.jpeg";
     var link = s.IMAGE_MENU;
     try {
         zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "by Djalega++" }, { quoted: ms });
@@ -117,7 +117,7 @@ var tt=[]
 
     var link = "https://wallpapercave.com/uwp/uwp3860299.jpeg"
     // var listCom =listeCommande()
-    let msg= "  ╩═══ * Ƶ𝓞ｋØ𝓊 * ╩═══\n\n"
+    let msg= "  ╩═══ * G-I-T * ╩═══\n\n"
 
 
 //const listeCommande= async ()=> {
